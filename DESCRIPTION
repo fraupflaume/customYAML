@@ -1,0 +1,10 @@
+Package: customYAML
+Title: Creating a custom YAML as an RMarkdown Template
+Version: 0.0.0.1000
+Authors@R: 
+    person("fraupflaume", "", , "", role = c("aut", "cre"))
+Description: This creates a template usable in RMarkdown with a preconfigured YAML for both `html_document` and `bookdown::pdf_document2`.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
