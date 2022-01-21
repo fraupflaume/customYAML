@@ -1,0 +1,19 @@
+---
+title: 'document' 
+output: 
+  html_document:
+    self_contained: true
+    toc: true
+    toc_float: true
+  bookdown::pdf_document2:
+    extra_dependencies: ["float"]
+    toc: true
+---
+
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+```
